@@ -1,3 +1,5 @@
+package model;
+
 public class Palindromo {
     public boolean eUmPalindromo(String frase){
         String fraseFiltrada = frase.toUpperCase().replace(" ","").replace("-","");
