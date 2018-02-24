@@ -61,8 +61,6 @@ public class JogoTest {
         String expResult = "";
         String result = instance.getDescricao();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -75,8 +73,6 @@ public class JogoTest {
         List<Resultado> expResult = null;
         List<Resultado> result = instance.getResultados();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
