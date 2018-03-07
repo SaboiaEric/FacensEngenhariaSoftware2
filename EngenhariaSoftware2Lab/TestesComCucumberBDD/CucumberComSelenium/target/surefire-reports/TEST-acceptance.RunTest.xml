@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="0" name="acceptance.RunTest" time="149.23" errors="6" skipped="12">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\140730\Desktop\CucumberBDD\CucumberComSelenium"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\140730\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Python36-32\Scripts\;C:\Program Files (x86)\Python36-32\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\GAMS\win64\24.8;C:\GAMS\win64\24.8\gbin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\140730\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\140730"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="140730"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| https:\/\/convertcase.net\/ | Capitalized Case | Henrique Camello | Henrique Camello |" name="| https:\/\/convertcase.net\/ | Capitalized Case | Henrique Camello | Henrique Camello |" time="54.168">
+    <error message="Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ screenshots@mozilla.org version 6.6.0
+1520382990907	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520382990908	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520382990912	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520382990913	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520382990913	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520382990913	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520382990913	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520382990914	addons.manager	DEBUG	Starting provider: GMPProvider
+1520382990919	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520382990919	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520382990919	addons.manager	DEBUG	Starting provider: PluginProvider
+1520382990919	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520382990920	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520382990920	addons.manager	DEBUG	Completed startup sequence
+1520382992976	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520382992977	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520382992977	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520382993243	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520382993243	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520382993243	DeferredSave.extensions.json	DEBUG	Starting timer
+1520382993266	DeferredSave.extensions.json	DEBUG	Starting write
+1520382993277	addons.repository	DEBUG	No addons.json found.
+1520382993278	DeferredSave.addons.json	DEBUG	Save changes
+1520382993281	DeferredSave.addons.json	DEBUG	Starting timer
+1520382994014	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520382994014	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520382994015	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520382994020	DeferredSave.addons.json	DEBUG	Starting write
+1520382994031	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520382994064	DeferredSave.addons.json	DEBUG	Write succeeded
+1520383029775	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1520383029775	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1520383029776	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1520383029777	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1520383029778	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+[GPU 1164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5088] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520383030188	addons.manager	DEBUG	shutdown
+1520383030189	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1520383030189	addons.xpi	DEBUG	shutdown
+1520383030189	addons.xpi-utils	DEBUG	shutdown
+1520383030190	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1520383030190	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1520383030192	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1520383030193	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1520383030194	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1520383030197	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1520383030202	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;A2101&apos;, ip: &apos;172.18.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ screenshots@mozilla.org version 6.6.0
+1520382990907	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520382990908	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520382990912	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520382990913	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520382990913	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520382990913	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520382990913	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520382990914	addons.manager	DEBUG	Starting provider: GMPProvider
+1520382990919	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520382990919	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520382990919	addons.manager	DEBUG	Starting provider: PluginProvider
+1520382990919	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520382990920	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520382990920	addons.manager	DEBUG	Completed startup sequence
+1520382992976	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520382992977	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520382992977	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520382993243	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520382993243	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520382993243	DeferredSave.extensions.json	DEBUG	Starting timer
+1520382993266	DeferredSave.extensions.json	DEBUG	Starting write
+1520382993277	addons.repository	DEBUG	No addons.json found.
+1520382993278	DeferredSave.addons.json	DEBUG	Save changes
+1520382993281	DeferredSave.addons.json	DEBUG	Starting timer
+1520382994014	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520382994014	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520382994015	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520382994020	DeferredSave.addons.json	DEBUG	Starting write
+1520382994031	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520382994064	DeferredSave.addons.json	DEBUG	Write succeeded
+1520383029775	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1520383029775	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1520383029776	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1520383029777	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1520383029778	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+[GPU 1164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5088] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520383030188	addons.manager	DEBUG	shutdown
+1520383030189	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1520383030189	addons.xpi	DEBUG	shutdown
+1520383030189	addons.xpi-utils	DEBUG	shutdown
+1520383030190	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1520383030190	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1520383030192	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1520383030193	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1520383030194	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1520383030197	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1520383030202	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;A2101&apos;, ip: &apos;172.18.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:221)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:212)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at acceptance.Convertcase.setUp(Convertcase.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:200)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ screenshots@mozilla.org version 6.6.0
+1520382990907	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520382990908	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520382990912	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520382990913	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520382990913	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520382990913	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520382990913	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520382990914	addons.manager	DEBUG	Starting provider: GMPProvider
+1520382990919	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520382990919	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520382990919	addons.manager	DEBUG	Starting provider: PluginProvider
+1520382990919	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520382990920	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520382990920	addons.manager	DEBUG	Completed startup sequence
+1520382992976	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520382992977	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520382992977	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520382993243	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520382993243	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520382993243	DeferredSave.extensions.json	DEBUG	Starting timer
+1520382993266	DeferredSave.extensions.json	DEBUG	Starting write
+1520382993277	addons.repository	DEBUG	No addons.json found.
+1520382993278	DeferredSave.addons.json	DEBUG	Save changes
+1520382993281	DeferredSave.addons.json	DEBUG	Starting timer
+1520382994014	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520382994014	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520382994015	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520382994020	DeferredSave.addons.json	DEBUG	Starting write
+1520382994031	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520382994064	DeferredSave.addons.json	DEBUG	Write succeeded
+1520383029775	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1520383029775	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1520383029776	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1520383029777	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1520383029778	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+[GPU 1164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5088] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520383030188	addons.manager	DEBUG	shutdown
+1520383030189	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1520383030189	addons.xpi	DEBUG	shutdown
+1520383030189	addons.xpi-utils	DEBUG	shutdown
+1520383030190	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1520383030190	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1520383030192	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1520383030193	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1520383030194	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1520383030197	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1520383030202	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
+	... 68 more
+</error>
+    <system-err>org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ screenshots@mozilla.org version 6.6.0
+1520382990907	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520382990908	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520382990912	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520382990913	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520382990913	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520382990913	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520382990913	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520382990914	addons.manager	DEBUG	Starting provider: GMPProvider
+1520382990919	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520382990919	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520382990919	addons.manager	DEBUG	Starting provider: PluginProvider
+1520382990919	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520382990920	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520382990920	addons.manager	DEBUG	Completed startup sequence
+1520382992976	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520382992977	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520382992977	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520382993243	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520382993243	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520382993243	DeferredSave.extensions.json	DEBUG	Starting timer
+1520382993266	DeferredSave.extensions.json	DEBUG	Starting write
+1520382993277	addons.repository	DEBUG	No addons.json found.
+1520382993278	DeferredSave.addons.json	DEBUG	Save changes
+1520382993281	DeferredSave.addons.json	DEBUG	Starting timer
+1520382994014	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520382994014	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520382994015	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520382994020	DeferredSave.addons.json	DEBUG	Starting write
+1520382994031	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520382994064	DeferredSave.addons.json	DEBUG	Write succeeded
+1520383029775	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1520383029775	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1520383029776	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1520383029777	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1520383029778	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+[GPU 1164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5088] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520383030188	addons.manager	DEBUG	shutdown
+1520383030189	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1520383030189	addons.xpi	DEBUG	shutdown
+1520383030189	addons.xpi-utils	DEBUG	shutdown
+1520383030190	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1520383030190	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1520383030192	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1520383030193	addons.manager	DEBUG	Calling shutdown blocker for &lt;unnamed-provider&gt;
+1520383030194	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1520383030197	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1520383030202	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:221)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:212)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at acceptance.Convertcase.setUp(Convertcase.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:200)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</system-err>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | Capitalized Case | Henrique Camello | Henrique Camello |" name="Given Eu abri o site \&quot;https:\/\/convertcase.net\/\&quot;" time="54.171">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | Capitalized Case | Henrique Camello | Henrique Camello |" name="When Eu digitar \&quot;Henrique Camello\&quot; no painel \&quot;content\&quot;" time="54.171">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | Capitalized Case | Henrique Camello | Henrique Camello |" name="And E clicar em \&quot;Capitalized Case\&quot;" time="54.171">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | Capitalized Case | Henrique Camello | Henrique Camello |" name="Then \&quot;Henrique Camello\&quot; deve ser convertido para \&quot;Henrique Camello\&quot;" time="54.171">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | Capitalized Case | Henrique Camello | Henrique Camello |" name="| https:\/\/convertcase.net\/ | Capitalized Case | Henrique Camello | Henrique Camello |" time="54.171">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at acceptance.Convertcase.tearDown(Convertcase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:204)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:50)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | lower case | HENRIQUE | henrique |" name="| https:\/\/convertcase.net\/ | lower case | HENRIQUE | henrique |" time="47.191">
+    <error message="Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+innable&quot;:true,&quot;size&quot;:8207,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;54.0.1&quot;,&quot;maxVersion&quot;:&quot;54.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;userPermissions&quot;:null}
+1520383034561	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1520383034564	DeferredSave.extensions.json	DEBUG	Save changes
+1520383034564	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1520383034564	addons.xpi-utils	DEBUG	Updating add-on states
+1520383034565	addons.xpi-utils	DEBUG	Writing add-ons list
+1520383034570	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1520383034571	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1520383034572	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1520383034573	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1520383034574	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1520383034575	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1520383034576	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1520383034577	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1520383034577	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520383034578	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520383034582	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520383034583	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520383034583	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520383034583	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520383034583	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520383034584	addons.manager	DEBUG	Starting provider: GMPProvider
+1520383034591	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520383034592	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520383034592	addons.manager	DEBUG	Starting provider: PluginProvider
+1520383034592	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520383034592	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520383034593	addons.manager	DEBUG	Completed startup sequence
+1520383037274	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520383037275	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520383037276	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520383037534	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383037534	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520383037534	DeferredSave.extensions.json	DEBUG	Starting timer
+1520383037552	addons.repository	DEBUG	No addons.json found.
+1520383037553	DeferredSave.addons.json	DEBUG	Save changes
+1520383037556	DeferredSave.addons.json	DEBUG	Starting timer
+1520383037599	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520383037599	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520383037599	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520383037603	DeferredSave.extensions.json	DEBUG	Starting write
+1520383037607	DeferredSave.addons.json	DEBUG	Starting write
+1520383037636	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383037645	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;A2101&apos;, ip: &apos;172.18.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+innable&quot;:true,&quot;size&quot;:8207,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;54.0.1&quot;,&quot;maxVersion&quot;:&quot;54.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;userPermissions&quot;:null}
+1520383034561	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1520383034564	DeferredSave.extensions.json	DEBUG	Save changes
+1520383034564	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1520383034564	addons.xpi-utils	DEBUG	Updating add-on states
+1520383034565	addons.xpi-utils	DEBUG	Writing add-ons list
+1520383034570	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1520383034571	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1520383034572	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1520383034573	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1520383034574	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1520383034575	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1520383034576	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1520383034577	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1520383034577	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520383034578	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520383034582	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520383034583	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520383034583	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520383034583	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520383034583	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520383034584	addons.manager	DEBUG	Starting provider: GMPProvider
+1520383034591	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520383034592	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520383034592	addons.manager	DEBUG	Starting provider: PluginProvider
+1520383034592	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520383034592	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520383034593	addons.manager	DEBUG	Completed startup sequence
+1520383037274	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520383037275	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520383037276	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520383037534	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383037534	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520383037534	DeferredSave.extensions.json	DEBUG	Starting timer
+1520383037552	addons.repository	DEBUG	No addons.json found.
+1520383037553	DeferredSave.addons.json	DEBUG	Save changes
+1520383037556	DeferredSave.addons.json	DEBUG	Starting timer
+1520383037599	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520383037599	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520383037599	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520383037603	DeferredSave.extensions.json	DEBUG	Starting write
+1520383037607	DeferredSave.addons.json	DEBUG	Starting write
+1520383037636	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383037645	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;A2101&apos;, ip: &apos;172.18.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:221)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:212)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at acceptance.Convertcase.setUp(Convertcase.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:200)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+innable&quot;:true,&quot;size&quot;:8207,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;54.0.1&quot;,&quot;maxVersion&quot;:&quot;54.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;userPermissions&quot;:null}
+1520383034561	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1520383034564	DeferredSave.extensions.json	DEBUG	Save changes
+1520383034564	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1520383034564	addons.xpi-utils	DEBUG	Updating add-on states
+1520383034565	addons.xpi-utils	DEBUG	Writing add-ons list
+1520383034570	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1520383034571	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1520383034572	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1520383034573	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1520383034574	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1520383034575	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1520383034576	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1520383034577	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1520383034577	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520383034578	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520383034582	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520383034583	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520383034583	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520383034583	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520383034583	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520383034584	addons.manager	DEBUG	Starting provider: GMPProvider
+1520383034591	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520383034592	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520383034592	addons.manager	DEBUG	Starting provider: PluginProvider
+1520383034592	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520383034592	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520383034593	addons.manager	DEBUG	Completed startup sequence
+1520383037274	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520383037275	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520383037276	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520383037534	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383037534	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520383037534	DeferredSave.extensions.json	DEBUG	Starting timer
+1520383037552	addons.repository	DEBUG	No addons.json found.
+1520383037553	DeferredSave.addons.json	DEBUG	Save changes
+1520383037556	DeferredSave.addons.json	DEBUG	Starting timer
+1520383037599	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520383037599	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520383037599	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520383037603	DeferredSave.extensions.json	DEBUG	Starting write
+1520383037607	DeferredSave.addons.json	DEBUG	Starting write
+1520383037636	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383037645	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
+	... 68 more
+</error>
+    <system-err>org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+innable&quot;:true,&quot;size&quot;:8207,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;54.0.1&quot;,&quot;maxVersion&quot;:&quot;54.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;userPermissions&quot;:null}
+1520383034561	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1520383034564	DeferredSave.extensions.json	DEBUG	Save changes
+1520383034564	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1520383034564	addons.xpi-utils	DEBUG	Updating add-on states
+1520383034565	addons.xpi-utils	DEBUG	Writing add-ons list
+1520383034570	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1520383034571	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1520383034572	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1520383034573	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1520383034574	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1520383034575	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1520383034576	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1520383034577	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1520383034577	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520383034578	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520383034582	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520383034583	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520383034583	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520383034583	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520383034583	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520383034584	addons.manager	DEBUG	Starting provider: GMPProvider
+1520383034591	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520383034592	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520383034592	addons.manager	DEBUG	Starting provider: PluginProvider
+1520383034592	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520383034592	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520383034593	addons.manager	DEBUG	Completed startup sequence
+1520383037274	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520383037275	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520383037276	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520383037534	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383037534	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520383037534	DeferredSave.extensions.json	DEBUG	Starting timer
+1520383037552	addons.repository	DEBUG	No addons.json found.
+1520383037553	DeferredSave.addons.json	DEBUG	Save changes
+1520383037556	DeferredSave.addons.json	DEBUG	Starting timer
+1520383037599	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520383037599	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520383037599	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520383037603	DeferredSave.extensions.json	DEBUG	Starting write
+1520383037607	DeferredSave.addons.json	DEBUG	Starting write
+1520383037636	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383037645	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:221)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:212)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at acceptance.Convertcase.setUp(Convertcase.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:200)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</system-err>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | lower case | HENRIQUE | henrique |" name="Given Eu abri o site \&quot;https:\/\/convertcase.net\/\&quot;" time="47.191">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | lower case | HENRIQUE | henrique |" name="When Eu digitar \&quot;HENRIQUE\&quot; no painel \&quot;content\&quot;" time="47.191">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | lower case | HENRIQUE | henrique |" name="And E clicar em \&quot;lower case\&quot;" time="47.191">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | lower case | HENRIQUE | henrique |" name="Then \&quot;HENRIQUE\&quot; deve ser convertido para \&quot;henrique\&quot;" time="47.191">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | lower case | HENRIQUE | henrique |" name="| https:\/\/convertcase.net\/ | lower case | HENRIQUE | henrique |" time="47.192">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at acceptance.Convertcase.tearDown(Convertcase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:204)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:50)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | UPPER CASE | henrique | henrique |" name="| https:\/\/convertcase.net\/ | UPPER CASE | henrique | henrique |" time="47.16">
+    <error message="Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;54.0.1&quot;,&quot;maxVersion&quot;:&quot;54.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;userPermissions&quot;:null}
+1520383083614	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1520383083620	DeferredSave.extensions.json	DEBUG	Save changes
+1520383083621	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1520383083621	addons.xpi-utils	DEBUG	Updating add-on states
+1520383083622	addons.xpi-utils	DEBUG	Writing add-ons list
+1520383083627	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1520383083628	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1520383083630	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1520383083631	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1520383083632	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1520383083634	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1520383083635	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1520383083636	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1520383083637	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520383083638	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520383083643	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520383083643	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520383083643	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520383083643	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520383083643	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520383083644	addons.manager	DEBUG	Starting provider: GMPProvider
+1520383083649	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520383083650	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520383083650	addons.manager	DEBUG	Starting provider: PluginProvider
+1520383083650	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520383083650	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520383083651	addons.manager	DEBUG	Completed startup sequence
+1520383096720	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520383096720	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520383096721	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520383097179	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383097180	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520383097181	DeferredSave.extensions.json	DEBUG	Starting timer
+1520383097204	DeferredSave.extensions.json	DEBUG	Starting write
+1520383097244	addons.repository	DEBUG	No addons.json found.
+1520383097246	DeferredSave.addons.json	DEBUG	Save changes
+1520383097250	DeferredSave.addons.json	DEBUG	Starting timer
+1520383097832	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520383097832	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520383097833	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520383097841	DeferredSave.addons.json	DEBUG	Starting write
+1520383097862	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383097901	DeferredSave.addons.json	DEBUG	Write succeeded
+[GPU 7948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;A2101&apos;, ip: &apos;172.18.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;54.0.1&quot;,&quot;maxVersion&quot;:&quot;54.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;userPermissions&quot;:null}
+1520383083614	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1520383083620	DeferredSave.extensions.json	DEBUG	Save changes
+1520383083621	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1520383083621	addons.xpi-utils	DEBUG	Updating add-on states
+1520383083622	addons.xpi-utils	DEBUG	Writing add-ons list
+1520383083627	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1520383083628	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1520383083630	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1520383083631	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1520383083632	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1520383083634	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1520383083635	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1520383083636	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1520383083637	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520383083638	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520383083643	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520383083643	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520383083643	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520383083643	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520383083643	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520383083644	addons.manager	DEBUG	Starting provider: GMPProvider
+1520383083649	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520383083650	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520383083650	addons.manager	DEBUG	Starting provider: PluginProvider
+1520383083650	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520383083650	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520383083651	addons.manager	DEBUG	Completed startup sequence
+1520383096720	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520383096720	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520383096721	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520383097179	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383097180	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520383097181	DeferredSave.extensions.json	DEBUG	Starting timer
+1520383097204	DeferredSave.extensions.json	DEBUG	Starting write
+1520383097244	addons.repository	DEBUG	No addons.json found.
+1520383097246	DeferredSave.addons.json	DEBUG	Save changes
+1520383097250	DeferredSave.addons.json	DEBUG	Starting timer
+1520383097832	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520383097832	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520383097833	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520383097841	DeferredSave.addons.json	DEBUG	Starting write
+1520383097862	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383097901	DeferredSave.addons.json	DEBUG	Write succeeded
+[GPU 7948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;A2101&apos;, ip: &apos;172.18.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:221)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:212)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at acceptance.Convertcase.setUp(Convertcase.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:200)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;54.0.1&quot;,&quot;maxVersion&quot;:&quot;54.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;userPermissions&quot;:null}
+1520383083614	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1520383083620	DeferredSave.extensions.json	DEBUG	Save changes
+1520383083621	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1520383083621	addons.xpi-utils	DEBUG	Updating add-on states
+1520383083622	addons.xpi-utils	DEBUG	Writing add-ons list
+1520383083627	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1520383083628	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1520383083630	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1520383083631	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1520383083632	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1520383083634	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1520383083635	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1520383083636	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1520383083637	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520383083638	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520383083643	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520383083643	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520383083643	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520383083643	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520383083643	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520383083644	addons.manager	DEBUG	Starting provider: GMPProvider
+1520383083649	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520383083650	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520383083650	addons.manager	DEBUG	Starting provider: PluginProvider
+1520383083650	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520383083650	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520383083651	addons.manager	DEBUG	Completed startup sequence
+1520383096720	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520383096720	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520383096721	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520383097179	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383097180	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520383097181	DeferredSave.extensions.json	DEBUG	Starting timer
+1520383097204	DeferredSave.extensions.json	DEBUG	Starting write
+1520383097244	addons.repository	DEBUG	No addons.json found.
+1520383097246	DeferredSave.addons.json	DEBUG	Save changes
+1520383097250	DeferredSave.addons.json	DEBUG	Starting timer
+1520383097832	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520383097832	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520383097833	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520383097841	DeferredSave.addons.json	DEBUG	Starting write
+1520383097862	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383097901	DeferredSave.addons.json	DEBUG	Write succeeded
+[GPU 7948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
+	... 68 more
+</error>
+    <system-err>org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;54.0.1&quot;,&quot;maxVersion&quot;:&quot;54.0.1&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;hasEmbeddedWebExtension&quot;:false,&quot;userPermissions&quot;:null}
+1520383083614	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1520383083620	DeferredSave.extensions.json	DEBUG	Save changes
+1520383083621	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1520383083621	addons.xpi-utils	DEBUG	Updating add-on states
+1520383083622	addons.xpi-utils	DEBUG	Writing add-ons list
+1520383083627	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1520383083628	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1520383083630	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1520383083631	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1520383083632	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1520383083634	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1520383083635	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1520383083636	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1520383083637	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1520383083638	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1520383083643	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1520383083643	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1520383083643	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1520383083643	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1520383083643	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1520383083644	addons.manager	DEBUG	Starting provider: GMPProvider
+1520383083649	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1520383083650	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1520383083650	addons.manager	DEBUG	Starting provider: PluginProvider
+1520383083650	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1520383083650	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1520383083651	addons.manager	DEBUG	Completed startup sequence
+1520383096720	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1520383096720	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1520383096721	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1520383097179	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383097180	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1520383097181	DeferredSave.extensions.json	DEBUG	Starting timer
+1520383097204	DeferredSave.extensions.json	DEBUG	Starting write
+1520383097244	addons.repository	DEBUG	No addons.json found.
+1520383097246	DeferredSave.addons.json	DEBUG	Save changes
+1520383097250	DeferredSave.addons.json	DEBUG	Starting timer
+1520383097832	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1520383097832	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1520383097833	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1520383097841	DeferredSave.addons.json	DEBUG	Starting write
+1520383097862	DeferredSave.extensions.json	DEBUG	Write succeeded
+1520383097901	DeferredSave.addons.json	DEBUG	Write succeeded
+[GPU 7948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:276)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:221)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:212)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at acceptance.Convertcase.setUp(Convertcase.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:200)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</system-err>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | UPPER CASE | henrique | henrique |" name="Given Eu abri o site \&quot;https:\/\/convertcase.net\/\&quot;" time="47.16">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | UPPER CASE | henrique | henrique |" name="When Eu digitar \&quot;henrique\&quot; no painel \&quot;content\&quot;" time="47.16">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | UPPER CASE | henrique | henrique |" name="And E clicar em \&quot;UPPER CASE\&quot;" time="47.16">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | UPPER CASE | henrique | henrique |" name="Then \&quot;henrique\&quot; deve ser convertido para \&quot;henrique\&quot;" time="47.16">
+    <skipped/>
+  </testcase>
+  <testcase classname="| https:\/\/convertcase.net\/ | UPPER CASE | henrique | henrique |" name="| https:\/\/convertcase.net\/ | UPPER CASE | henrique | henrique |" time="47.16">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at acceptance.Convertcase.tearDown(Convertcase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:222)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:210)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:204)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:50)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+  </testcase>
+</testsuite>
