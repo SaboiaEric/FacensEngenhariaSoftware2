@@ -1,19 +1,16 @@
-Feature: Convertcase
+Feature: Consistência do participante
 	
-	Scenario Outline: converter o "case" de uma palavra
+	Scenario: participante deve conter um nome, sendo ele diferente de vazio e com mais de uma letra.
 		
-	Given Eu abri o site "<site>"
+	Given Ao criar um "<jogo>"
 	
-	When Eu digitar "<input>" no painel "content"
+	When Eu digitar "<input>" no campo "para" ao criar um jogo antes de construí-lo
 	
-	And E clicar em "<botao>"
+	Then a mensagem "<output>" deve ser exibida para o usuário.
 	
-	Then "<input>" deve ser convertido para "<output>"
+	Exemplo:
 	
-	Examples:
-	
-    | site                     | botao            | input                 | output                |  
-    | https://convertcase.net/ | Capitalized Case | Henrique Camello | Henrique Camello |
-    | https://convertcase.net/ | lower case       | HENRIQUE              | henrique              |
-    | https://convertcase.net/ | UPPER CASE       | henrique              | henrique              |
+    | jogo           | input    | output                 				|  
+    | Bolão Ano Novo | ""    	| Nome não deve ser nulo 				|
+    | Torneio Casual | "A"      | Nome deve ter mais de dois dígitos    |
 	

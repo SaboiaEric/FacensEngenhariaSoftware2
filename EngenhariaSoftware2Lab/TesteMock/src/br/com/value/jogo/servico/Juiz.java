@@ -17,7 +17,7 @@ public class Juiz {
 	public void avalia(Jogo jogo) {
 		
 		if(jogo.getResultados().size() == 0) {
-			throw new RuntimeException("Não é possível jugar sem Resultados dos jogos!");
+			throw new RuntimeException("NÃ£o Ã© possÃ­vel julgar sem Resultados dos jogos!");
 		}
 		
 		for(Resultado resultado : jogo.getResultados()) {

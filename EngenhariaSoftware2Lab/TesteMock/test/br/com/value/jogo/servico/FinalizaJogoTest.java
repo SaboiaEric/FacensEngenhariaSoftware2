@@ -22,7 +22,7 @@ public class FinalizaJogoTest {
 	        Calendar antiga = Calendar.getInstance();
 	        antiga.set(1999, 1, 20);
 
-	        Jogo jogo1 = new CriadorDeJogo().para("Caça moedas")
+	        Jogo jogo1 = new CriadorDeJogo().para("Cata moedas")
 	            .naData(antiga).constroi();
 	        Jogo jogo2 = new CriadorDeJogo().para("Derruba barreiras")
 	            .naData(antiga).constroi();

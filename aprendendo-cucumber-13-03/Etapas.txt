@@ -1,3 +1,0 @@
-Em src/test/resources/caracteristicas, escrever o caso de uso em linguagem natural
-Executar o teste
-Verificar no console se não houve nenhum erro e em src/test/java/cucumber/teste se os testes foram parar nos arquivos

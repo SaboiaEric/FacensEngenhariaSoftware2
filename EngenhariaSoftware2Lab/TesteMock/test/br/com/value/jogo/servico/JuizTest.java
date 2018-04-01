@@ -32,19 +32,18 @@ public class JuizTest {
 		this.andreia = new Participante("Andreia");
 	}
 	
-	@Test(expected=RuntimeException.class)
-	public void naoDeveTerJogoSemNenhumResultado() {
+    @Test(expected=RuntimeException.class)
+    public void naoDeveTerJogoSemNenhumResultado() {
 		Jogo jogo = new CriadorDeJogo().para("Cata Moedas").constroi();
 		
 		juiz.avalia(jogo);
-		
 	}
 	
     @Test
     public void deveTerResultadosEmOrdemCrescente() {
         // parte 1: cenario
          
-        Jogo jogo = new Jogo("Caça Moedas");
+        Jogo jogo = new Jogo("Cata Moedas");
          
         jogo.anota(new Resultado(leonardo, 250.0));
         jogo.anota(new Resultado(laura, 300.0));
@@ -61,7 +60,7 @@ public class JuizTest {
     @Test
     public void deveTerJogoComApenasUmResultado() {
     	Participante leonardo = new Participante("Leonardo");
-        Jogo jogo = new Jogo("Caça Moedas");
+        Jogo jogo = new Jogo("Cata Moedas");
          
         jogo.anota(new Resultado(leonardo, 1000.0));
          
@@ -71,10 +70,11 @@ public class JuizTest {
         assertEquals(1000.0, juiz.getMenorResulatado(), 0.00001);
     }
      
+    
     @Test
     public void deveEncontrarOsTresMaioresResultados() {
         
-        Jogo jogo = new CriadorDeJogo().para("Caça Moedas")
+        Jogo jogo = new CriadorDeJogo().para("Caï¿½a Moedas")
         		.resultado(leonardo, 100.0)
         		.resultado(laura, 200.0)
         		.resultado(andreia, 300.0)
