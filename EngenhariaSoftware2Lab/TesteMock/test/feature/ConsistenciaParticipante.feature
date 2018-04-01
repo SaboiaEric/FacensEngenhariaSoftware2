@@ -9,6 +9,6 @@ Feature: Consistência do participante
 	
     | jogo           | entrada  | saida                                 |  
     | Bolão Ano Novo | ""    	| Nome não deve ser nulo ou vazio	|
-    | Torneio Casual | "A"      | Nome deve ter mais de dois dígitos    |
+    | Torneio Casual | "A"      | Nome deve ter mais de um dígitos      |
     | Copa da Jornada| "  "     | Nome não deve ser nulo ou vazio	|
 	

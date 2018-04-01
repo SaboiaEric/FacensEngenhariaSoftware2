@@ -5,11 +5,14 @@ public class Participante {
 	private int id;
 	private String nome;
 	
-	public Participante(String nome) {
-		this(0, nome);
+	public Participante(String nome){
+                this(0, nome);
+		
 	}
+        
 
-	public Participante(int id, String nome) {
+	public Participante(int id, String nome){
+            
 		this.id = id;
 		this.nome = nome;
 	}
@@ -49,6 +52,15 @@ public class Participante {
 			return false;
 		return true;
 	}
-
+        
+        public String ValidaNome(){
+            String nomeAtual = nome.trim();
+            
+            if(nomeAtual.isEmpty()) return "Nome não deve ser nulo ou vazio";
+            if(nomeAtual.length() == 1) return "Nome deve ter mais de um dígitos";
+            return "";
+                       
+            //return "";
+        }
 	
 }
