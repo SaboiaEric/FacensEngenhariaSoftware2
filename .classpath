@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AnoBissexto/src"/>
+	<classpathentry kind="src" path="EngenhariaSoftware2Lab/TesteMock/src"/>
+	<classpathentry kind="src" path="EngenhariaSoftware2Lab/TesteMock/test"/>
+	<classpathentry kind="src" path="EngenhariaSoftware2Lab/Testes/2018EngenhariaDeSoftware2LabTestesManuaisEAutomatizados/src"/>
+	<classpathentry kind="src" path="EngenhariaSoftware2Lab/Testes/2018EngenhariaDeSoftware2LabTestesManuaisEAutomatizados/test"/>
+	<classpathentry kind="src" path="EngenhariaSoftware2Lab/TestesComCucumberBDD/aprendendo-cucumber-master/src/main/java"/>
+	<classpathentry kind="src" path="EngenhariaSoftware2Lab/TestesComCucumberBDD/aprendendo-cucumber-master/src/test/java"/>
+	<classpathentry kind="src" path="EngenhariaSoftware2Lab/TestesComCucumberBDD/CucumberComSelenium/src/test/java"/>
+	<classpathentry kind="src" path="EngenhariaSoftware2Lab/TesteUnitario/src"/>
+	<classpathentry kind="src" path="EngenhariaSoftware2Lab/TesteUnitario/test"/>
+	<classpathentry kind="src" path="eUmPalindromo/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -17,4 +17,18 @@ public class Pagamento {
 	public Calendar getData() {
 		return data;
 	}
+	
+	public int ValidaValorPagamento(){
+	    
+	    if(valor == 0) {
+	    	System.out.println("Valor do pagamento nao deve ser 0");
+	    	return 1;
+	    }
+	    if(valor <= 0) {
+	    	System.out.println("Valor do pagamento deve ser positivo");
+	    	return 2;
+	    }
+	    return 0;
+	}
 }
+
